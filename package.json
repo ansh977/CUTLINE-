@@ -1,0 +1,14 @@
+{
+  "name": "cutline",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Turn long videos into vertical shorts: transcribe, rank the moments, render captioned clips.",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "start": "node server.mjs"
+  },
+  "dependencies": {
+    "@huggingface/transformers": "^3.7.5"
+  }
+}
